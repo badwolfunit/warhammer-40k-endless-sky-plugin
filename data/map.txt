@@ -1,19 +1,12 @@
-system Pyherrus
-	pos -235.33333 372.05556
+
+system "Terra and Mars"
+	pos -235.333 372.056
 	government "Imperium of Man"
-	asteroids "small rock" 4 3.99
-	asteroids "medium rock" 6 2.6125
-	asteroids "large rock" 40 4.6075
-	asteroids "small metal" 27 2.945
-	asteroids "medium metal" 35 3.1825
-	asteroids "large metal" 6 4.7025
-	minables lead 8 4.7339611
-	minables copper 9 5.2353775
-	fleet "Imperium Light Patrol" 1200
-	fleet "Imperium Heavy Patrol" 4200
-	fleet "Imperium Merchant" 1000
 	habitable 2560
-	belt 1833
+	belt 1892
+	asteroids "small rock" 2 2.684
+	asteroids "large rock" 6 1.848
+	asteroids "large metal" 1 1.738
 	trade Clothing 372
 	trade Electronics 737
 	trade Equipment 876
@@ -24,61 +17,83 @@ system Pyherrus
 	trade Medical 704
 	trade Metal 568
 	trade Plastic 467
+	fleet "Imperium Light Patrol" 1200
+	fleet "Imperium Heavy Patrol" 4200
+	fleet "Imperium Merchant" 1000
 	object
-		sprite star/a-giant
-		distance 203
-		period 144.61524
-		offset 180
+		sprite star/g0
+		period 25.38
 	object
-		sprite planet/browndwarf-y
-		distance 203
-		period 144.61524
+		sprite planet/mercury
+		distance 289.647
+		period 60
 	object
-		sprite planet/browndwarf-y-rouge
-		distance 1066
-		period 615.26303
+		sprite planet/venus
+		distance 533.534
+		period 150
+	object Earth
+		sprite planet/earth
+		distance 965.669
+		period 365.25
+		object Luna
+			sprite planet/luna
+			distance 201.24
+			period 27.3
+	object Mars
+		sprite planet/mars
+		distance 1471.43
+		period 687
+	object
+		sprite planet/jupiter
+		distance 3000
+		period 2000
 		object
-			sprite planet/oberon
-			distance 481
-			period 649.69865
-	object Pifitus
-		sprite planet/rock10-fw
-		distance 2383.7711
-		period 1530.4222
-		object "Pifitus II"
-			sprite planet/luna-b
-			distance 199.30619
-			period 52
-	object Agcelli
-		sprite planet/earth-b
-		distance 3156.0901
-		period 2181.9249
-	object
-		sprite planet/gas3
-		distance 4171.1091
-		period 3396.9673
+			sprite planet/io
+			distance 238.221
+			period 10.614
+		object
+			sprite planet/europa
+			distance 379.078
+			period 21.306
+		object
+			sprite planet/ganymede
+			distance 604.739
+			period 42.93
+		object
+			sprite planet/callisto
+			distance 811.717
+			period 66.76
+
+planet Earth
+	attributes "near earth" urban tourism
+	landscape land/city3
+	description `The ancestral home world of humanity, Earth has a population twice that of any other inhabited planet. Sprawling cities cover large portions of its surface, many of them overcrowded and dangerous. Some people work to scrape together enough money to leave, while at the same time others, born on distant worlds, make a pilgrimage of sorts to see this planet that once cradled the entirety of the human species.`
+	description `	Earth is also the capital of the Republic. Representative government becomes complicated when one planet has a greater population than a hundred planets elsewhere. As a result, settlements of less than a million are grouped together into planetary districts that elect a single representative between them - a source of much frustration in the frontier worlds.`
+	spaceport `Earth's spaceport is a series of massive buildings; the gaps between them form narrow concrete canyons a hundred stories deep. From a distance it has the appearance of a bustling termite mound.`
+	spaceport `	Inside the towers is a warren of dim hallways and dingy shops. Hitchhikers sleep in the corners of unused docking bays under old army blankets, a few uniformed cleaners try to keep the litter and dust in check, and rich tourists from other stars cling tightly to their expensive cameras.`
+	outfitter "Imperium Basic"
+	"required reputation" 2
+	bribe 0.03
+	security 0.3
+	tribute 10000
+		threshold 20000
+		fleet "" 50
+
 
 planet Pifitus
-	government "Adeptus Mechanicus"
+	landscape land/loc2
+	description `Pifitus is a massive forge world with half of its surface covered in metal. It is home to one of the largest shipyard known to man and equipped with the very best and latest technologies avaliable to the mechanicus.`
+	spaceport `The spaceport is built atop of a massive building that also serves as one of the shipyard of the planet, crowded with tech-priests, servitors, and slaves working day and night. `
 	shipyard "Forge World Advanced"
 	shipyard "Imperium Basic"
 	outfitter "Forge World Advanced"
-	landscape land/loc2
-	description "Pifitus is a massive forge world with half of its surface covered in metal. It is home to one of the largest shipyard known to man and equipped with the very best and latest technologies avaliable to the mechanicus."
-	spaceport "The spaceport is built atop of a massive building that also serves as one of the shipyard of the planet, crowded with tech-priests, servitors, and slaves working day and night. "
+	government "Adeptus Mechanicus"
 	security 0.5
 
 planet "Pifitus II"
-	government "Adeptus Mechanicus"
 	attributes mining
 	landscape land/loc3
-	description "A large moon orbiting the forge world Pifitus. Dotted with gargantuan mining equipment this moon provides the forge world below with nearly endless stream of resources."
-	spaceport "The spaceport contains only the most basic facilities as it is mostly visited only by small system ships transporting mined minerals to the forge world below. "
-
-planet Agcelli
-	attributes agri-world farming
-	outfitter "Imperium Basic"
-	landscape land/fields3
-	description "Agcelli is a temperate Earth-like planet consist of a single megacontinent streching from pole to pole covering a fourth of the planet surface, countless rivers large and small running from mountians deep within the land kept most of the continent green with farmlands mostly dedicated to farming and food production for exporting to local forge world, Pifitus. With forge world nearby this planet possess only the most basic manufacturing and repair facilities as it have most of its technology provided by the forge world."
-	spaceport "The planet-side spaceport is located at the center of the vast farmland that cover the continent. Here also lies the only city on the planet, the city itself covers about 4 kilometers in diameter mostly dedicated to housing of over million souls and food-processing factories."
+	description `A large moon orbiting the forge world Pifitus. Dotted with gargantuan mining equipment this moon provides the forge world below with nearly endless stream of resources.`
+	spaceport `The spaceport contains only the most basic facilities as it is mostly visited only by small system ships transporting mined minerals to the forge world below. `
+	government "Adeptus Mechanicus"
 
