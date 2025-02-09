@@ -47,3 +47,54 @@ government "Tau Empire"
 	color 0.0 0.3 0.6
 	"crew attack" 19
 	"crew defense" 23
+
+government "chaos space marines"
+	"display name" <other-name>
+	swizzle <value#>
+	color (<r#> <g#> <b#> | <name>)
+	"player reputation" <initial-rep#>
+	reputation
+		"player reputation" <initial-rep#>
+		min <minimum-rep#>
+		max <maximum-rep#>
+	"crew attack" <atk#>
+	"crew defense" <def#>
+	"attitude toward"
+		<government> <rep-modifier#>
+		...
+	"default attitude"  <rep-modifier#>
+	"penalty for"
+		(assist | disable | board | capture | destroy | atrocity | scan) <rep-modifier#>
+		...
+	"foreign penalties for"
+		<government>
+		...
+	"custom penalties for"
+		<government>
+			(assist | disable | board | capture | destroy | atrocity | scan) <rep-modifier#>
+			...
+		...
+	"provoked on scan"
+	bribe <percentage#>
+	fine <percentage#>
+	"death sentence" <conversation>
+	"send untranslated hails"
+	"friendly hail" <phrase>
+	"friendly disabled hail" <phrase>
+	"hostile hail" <phrase>
+	"hostile disabled hail" <phrase>
+	language <text>
+	raid <fleet> [<min-attraction#> [<max-attraction#>]]
+	enforces [all]
+	enforces
+		{filter specification...}
+	"travel restrictions"
+		{filter specification...}
+	illegals
+		<outfit> <fine>
+		ship <ship> <fine>
+		...
+	atrocities
+		<outfit>
+		ship <ship>
+		...
