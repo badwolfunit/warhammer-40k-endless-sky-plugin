@@ -53,20 +53,27 @@ government "chaos space marines"
 	swizzle 8
 	color 0.4 0.4 0.7
 	reputation
-		"player reputation" -100
+		"player reputation" -50
 		min -100
 		max 200
 	"crew attack" 2
 	"crew defense" 3
 	"attitude toward"
-		<government> <rep-modifier#>
-		...
-	"default attitude"  <rep-modifier#>
+	  Imperium of Man -100
+	"default attitude"  -100
 	"penalty for"
-		(assist | disable | board | capture | destroy | atrocity | scan) <rep-modifier#>
-		...
+    assist -15
+		disable 10
+    board 10
+    capture 10
+    destroy 10
+    atrocity 10
+    scan 10
 	"foreign penalties for"
-		<government>
+		Imperium of Man
+    Tau Empire
+    Emperor's Inquisition
+    Adeptus Mechanicus
 		...
 	"custom penalties for"
 		<government>
