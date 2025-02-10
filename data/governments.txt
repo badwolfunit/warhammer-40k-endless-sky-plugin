@@ -70,10 +70,10 @@ government "chaos space marines"
     atrocity 10
     scan 10
 	"foreign penalties for"
-		Imperium of Man
-    Tau Empire
-    Emperor's Inquisition
-    Adeptus Mechanicus
+		"Imperium of Man"
+    "Tau Empire"
+    "Emperor's Inquisition"
+    "Adeptus Mechanicus"
 	"provoked on scan"
 	bribe 50
 	fine 1
