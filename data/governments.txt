@@ -51,12 +51,11 @@ government "Tau Empire"
 government "chaos space marines"
 	"display name" "Chaos"
 	swizzle 8
-	color (<r#> <g#> <b#> | <name>)
-	"player reputation" <initial-rep#>
+	color 0.4 0.4 0.7
 	reputation
-		"player reputation" <initial-rep#>
-		min <minimum-rep#>
-		max <maximum-rep#>
+		"player reputation" -100
+		min -100
+		max 200
 	"crew attack" <atk#>
 	"crew defense" <def#>
 	"attitude toward"
