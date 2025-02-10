@@ -56,8 +56,8 @@ government "chaos space marines"
 		"player reputation" -100
 		min -100
 		max 200
-	"crew attack" <atk#>
-	"crew defense" <def#>
+	"crew attack" 2
+	"crew defense" 3
 	"attitude toward"
 		<government> <rep-modifier#>
 		...
