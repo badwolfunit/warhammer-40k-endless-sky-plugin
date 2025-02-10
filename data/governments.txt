@@ -79,8 +79,8 @@ government "chaos space marines"
 	fine 1
 	"death sentence" "chaos death sentence"
 	"send untranslated hails"
-	"friendly hail" <phrase>
-	"friendly disabled hail" <phrase>
+	"friendly hail" "chaos friendly hail"
+	"friendly disabled hail" "chaos friendly hail"
 	"hostile hail" <phrase>
 	"hostile disabled hail" <phrase>
 	language <text>
