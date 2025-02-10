@@ -1,3 +1,7 @@
 conversation "chaos death sentence"
 
 All who oppose the Ruinous Powers must die!"
+
+conversation "Imperium death sentence"
+
+To oppose the Emperor is heresy. To commit heresy is to die!
