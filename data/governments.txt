@@ -74,12 +74,6 @@ government "chaos space marines"
     Tau Empire
     Emperor's Inquisition
     Adeptus Mechanicus
-		...
-	"custom penalties for"
-		<government>
-			(assist | disable | board | capture | destroy | atrocity | scan) <rep-modifier#>
-			...
-		...
 	"provoked on scan"
 	bribe <percentage#>
 	fine <percentage#>
