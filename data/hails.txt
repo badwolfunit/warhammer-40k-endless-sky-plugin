@@ -1,0 +1,4 @@
+phrase "chaos friendly hail"
+	word
+		"The gods have favoured you this time."
+		
