@@ -50,7 +50,7 @@ government "Tau Empire"
 
 government "chaos space marines"
 	"display name" "Chaos"
-	swizzle <value8>
+	swizzle 8
 	color (<r#> <g#> <b#> | <name>)
 	"player reputation" <initial-rep#>
 	reputation
