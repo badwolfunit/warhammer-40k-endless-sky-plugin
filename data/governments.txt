@@ -49,7 +49,7 @@ government "Tau Empire"
 	"crew defense" 23
 
 government "chaos space marines"
-	"display name" <other-name>
+	"display name" "Chaos"
 	swizzle <value#>
 	color (<r#> <g#> <b#> | <name>)
 	"player reputation" <initial-rep#>
