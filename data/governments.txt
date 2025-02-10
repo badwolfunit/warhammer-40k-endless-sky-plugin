@@ -77,7 +77,7 @@ government "chaos space marines"
 	"provoked on scan"
 	bribe 50
 	fine 1
-	"death sentence" <conversation>
+	"death sentence" chaos death sentence
 	"send untranslated hails"
 	"friendly hail" <phrase>
 	"friendly disabled hail" <phrase>
