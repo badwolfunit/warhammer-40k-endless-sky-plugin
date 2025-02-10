@@ -2,3 +2,7 @@ phrase "chaos friendly hail"
 	word
 		"The gods have favoured you this time."
 		
+phrase "chaos hostile hail"
+	word
+		"Bpw to the Chaos gods and we shall help you"
+		
