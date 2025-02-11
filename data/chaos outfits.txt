@@ -5,4 +5,5 @@ outfit "Chaos altar"
 	"mass" 65
 	"outfit space" -58
 	"required crew" 0
+  atrocity
 	description "A atlar of Chaos Undivided."
