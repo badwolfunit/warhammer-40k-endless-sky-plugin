@@ -1,0 +1,14 @@
+effect "warp damage"
+	sprite "warp particle"
+		[sprite properties...]
+	sound <name>
+	"sound category" <category>
+	lifetime <frames#>
+	"random lifetime" <frames#>
+	"velocity scale" <scale#>
+	"random velocity" <velocity#>
+	"random angle" <degrees#>
+	"random spin" <degrees#>
+	"random frame rate" <fps#>
+	"absolute velocity" <velocity#>
+	"absolute angle" <degrees#>
