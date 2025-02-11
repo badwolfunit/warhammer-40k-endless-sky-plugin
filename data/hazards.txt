@@ -1,0 +1,8 @@
+hazard "Warp Storms"
+	"constant strength"
+	"period" 40000
+	"duration" 4 [200]
+	"system-wide"
+	"environmental effect" "<effect name>" [<amount#>]
+	weapon
+		...
