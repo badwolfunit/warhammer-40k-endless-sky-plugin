@@ -1,0 +1,8 @@
+outfit "Chaos altar"
+	category "Special"
+	cost 1890000
+	thumbnail "%"
+	"mass" 65
+	"outfit space" -58
+	"required crew" 0
+	description "A atlar of Chaos Undivided."
