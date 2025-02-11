@@ -85,16 +85,9 @@ government "chaos space marines"
 	"hostile disabled hail" "chaos hostile hail"
 	language <text>
 	raid <fleet> [<min-attraction#> [<max-attraction#>]]
-	enforces [all]
 	enforces
-		{filter specification...}
+	enforces
 	"travel restrictions"
-		{filter specification...}
 	illegals
-		<outfit> <fine>
-		ship <ship> <fine>
-		...
 	atrocities
-		<outfit>
-		ship <ship>
-		...
+		[ignore] "chaos altar"
