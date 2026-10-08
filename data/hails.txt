@@ -4,5 +4,5 @@ phrase "chaos friendly hail"
 		
 phrase "chaos hostile hail"
 	word
-		"Bpw to the Chaos gods and we shall help you"
+		"Bow to the Chaos gods and we shall help you"
 		
